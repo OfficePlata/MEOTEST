@@ -61,7 +61,7 @@
         event.preventDefault();
         var satisfaction = document.querySelector('input[name="satisfaction"]:checked').value;
         // Googleスプレッドシートにデータを送信
-        fetch('YOUR_WEB_APP_URL', { // YOUR_WEB_APP_URLをスクリプトエディタから取得したURLに置き換えてください
+        fetch('https://script.google.com/macros/s/AKfycbxw6bBsfjl4WlTQPZ77b_tW5Ia_MHxzTlCCTewn_iHflFjV_-cR7bC9JNGTxcdLVrtb/exec', { // YOUR_WEB_APP_URLをスクリプトエディタから取得したURLに置き換えてください
             method: 'POST',
             mode: 'no-cors', // CORSポリシーを回避
             redirect: 'follow',
